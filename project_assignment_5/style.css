@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    width: 100%;
+}
+
+.display-none {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .display-none > img {
+    opacity: 0;
+    height: 25px;
+}
+
+.navbar .list {
+    margin-right: 10px;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    color: white;
+    justify-content: end;
+}
+
+.navbar .list li {
+    padding: 5px 10px;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+.navbar .list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .list li:hover {
+    background-color: brown;
+}
+
+/* Here I am applyging color to Home the same has two classes */
+nav li.active {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.home {
+    display: flex;
+    margin: 0 20%;
+    justify-content: center;
+}
+
+
+/* hero section  */
+.home-text {
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .home-text .waveing-hand-text {
+    display: flex;
+}
+
+.home .home-text .waveing-hand-text img {
+    margin-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    height: 25px;
+}
+
+.home .home-text .name h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.home .home-text .developer {
+    display: flex;
+}
+
+.home .home-text .developer h3 {
+    color: #29cc3f;
+    align-items: start;
+    justify-content: start;
+}
+
+ /* here we are working with pc image  */
+.home-image .pc-image {
+    height: 300px;
+}
+
+.projects {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.projects > h2 {
+    border-bottom: 4px solid #37219c;
+}
+
+
+ /* project images  */
+.project-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 25%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+} 
+
+.project-output {
+    height: 340px;
+}
+
+
+
+/* Contact me section  */
+.contact-me {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.contact-me .contact-me-text {
+    border-bottom: 4px solid blue;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links > div > img {
+    padding-top: 20px;
+    padding-bottom: 54px;
+    height: 25px;
+}
+
+
+/* responsive design  */
+@media screen and (max-width: 576px) {
+    /* navbar  */
+    .display-none {
+        margin: 10px 20px;
+    }
+    .navbar .display-none > img {
+        opacity: 1;
+        height: 25px;
+    }
+
+    .navbar .list {
+        display: none;
+    }
+
+
+
+    /* hero section  */
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* project heading  */
+    .projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* project sectioin  */
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-output {
+        height: 300px;
+    }
+}
