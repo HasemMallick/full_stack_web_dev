@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    /* background: #0f0f10; */
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background: #0f0f10;
+}
+/* removing the default css of a tags */
+a {
+    text-decoration: none;
+}
+
+/* removing the default css of li tags */
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0 15vw;
+}
+
+/* navigation menu design  */
+.nav-container {
+    display: flex;
+    padding-top: 36px;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 70px;
+    justify-content: space-around;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.nav-container .nav-list ul {
+    gap: 70px;
+}
+
+.list-item a {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav-btn {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 12px 36px;
+    font-size: 19px;
+    border-radius: 8px;
+    background-color: #181a1b;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav-container > img {
+    height: 26px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.main-container {
+    display: flex;
+}
+
+.photo-and-text {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.on-ear {
+    padding-left: 140px;
+}
+
+.text {
+    /* border: 2px solid red; */
+    margin-left: 25px;
+    margin-top: 24px;
+}
+
+.text h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.text h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 26px 0;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #b0aaaa;
+    line-height: 30px;
+}
+
+.text .bag {
+    display: flex;
+    background-color: #181a1b;
+    /* border: 2px solid red; */
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px 24px;
+    margin-top: 10px;
+    border-radius: 24px;
+    width: 350px;
+}
+
+.text .bag img,
+.text .bag h4,
+.text .bag p {
+    background-color: #181a1b;
+}
+
+.text .bag p {
+    color: #fff;
+}
+.text .bag h4 {
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+
+
+
+.main-image {
+    width: 280px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* section 1  */
+.sec-1-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section 2  */
+.specs-section {
+    margin-bottom: 170px;
+}
+section .image-specs {
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-2-main-div  {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content .align-item-end {
+    margin-left: 28px;
+}
+
+.content > div h3 {
+    font-weight: 400;
+}
+
+.content > div p {
+    color: #b0aaaa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* case section  */
+
+section .icon-case {
+    margin: 75px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.case-image-text-cont {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-text .case-text-p p {
+    line-height: 40px;
+    color: #bbafaf;
+}
+
+.more-info {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    background-color: #181a1b;
+    width: 250px;
+    padding: 22px 34px;
+    border-radius: 14px;
+}
+
+.more-info img {
+    margin-right: 20px;
+    background-color: #181a1b;
+    height: 25px;
+}
+
+.more-info h3 {
+    background-color: #181a1b;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+/* buy sectin  */
+.buy-section {
+    display: flex;
+    margin: 100px 0;
+    height: 500px;
+    /* border: 5px solid red; */
+    background: #181a1b;
+    border-radius: 74px;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.buy-section .buy-text h1,
+.buy-section .buy-text p,
+.buy-section .buy-text button, 
+.buy-section .buy-text button img,
+.buy-section .buy-text {
+    background-color: #181a1b;
+}
+
+.buy-section .buy-text h1 {
+    margin-bottom: 22px;
+}
+
+.buy-section .buy-text p {
+    margin-bottom: 20px;
+}
+
+.buy-section .buy-text button {
+    background-color: #000000;
+    font-size: 22px;
+    padding: 12px 29px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.buy-section .buy-text button img{
+    margin-right: 16px;
+}
+
+.buy-section .buy-image,
+.buy-section .buy-image img {
+    background-color: #181a1b;
+}
+
+.buy-section .buy-image img {
+    height: 350px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+/* product section */
+section .icon-product {
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 80px;
+    padding: 10px;
+    margin: 0 20%;
+}
+
+.grid-cont > div {
+    /* border: 4px solid red; */
+    background: #181a1b;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 24px;
+}
+
+.grid-cont .grid-item .ex-image {
+    background: #181a1b;
+}
+
+.grid-cont .grid-item .ex-image img {
+    background: #181a1b;
+}
+
+.grid-cont .grid-item img {
+    height: 100px;
+    width: 100px;
+    margin-top: -40px;
+}
+
+.grid-cont .grid-item .product-desc{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+    background: #181a1b;
+}
+
+.grid-cont .grid-item .product-desc .p-details {
+    background: #181a1b;
+}
+
+.grid-cont .grid-item .product-desc .bag-image {
+    /* margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 60px;
+    background: #181a1b; */
+    margin-left: 44px;
+    margin-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    border-radius: 12px;
+
+}
+
+
+.grid-cont .grid-item .product-desc img {
+    height: 25px;
+    width: 25px;
+    background: #181a1b;
+} 
+
+.grid-cont .grid-item .product-desc h6 {
+    padding: 4px 14px;
+    font-weight: 400;
+    background: #181a1b;
+}
+
+.grid-cont .grid-item .product-desc p {
+    font-size: 16px;
+    color: #b0aaaa;
+    background: #181a1b;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+/* footer  */
+.fo-container {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-left: 10%; */
+    grid-template-columns: 150px 250px 250px 500px 300px;
+    grid-template-rows: 300px;
+    /* gap: 78px; */
+    /* border: 2px solid saddlebrown ; */
+}
+
+.fo-container > div {
+    /* border: 2px solid green; */
+    height: 250px;
+} 
+
+.fo-container .fo-grids a h3 {
+    margin-bottom: 28px;
+}
+
+.fo-container .fo-grids ul li {
+    margin-bottom: 16px;
+}
+
+.fo-container .fo-grids ul li a{
+    color: #b0aaaa;
+}
+
+.fo-container .fo-grids .email-sub-input {
+    /* margin-top: 20px; */
+    padding: 10px 30px;
+    background-color: #1b1717;
+    border-radius: 34px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+/* i have to read abuot how to design a input box  */
+
+
+.fo-container .fo-grids .email-sub-input button {
+    font-size: 19px;
+    background-color: #000000;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.fo-container .fo-grids .email-sub-input button img {
+    margin-right: 16px;
+    /* margin-top: 10px; */
+}
+
+.fo-container .fo-grids .social-media img {
+    margin-right: 20px;
+}
+
+.fo-container .fo-grids .up-arrow {
+    padding-left: 260px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #000000; */
+    font-size: 16px;
+    color: #333;
+}
+  
+input[type="email"]:focus {
+    outline: none;
+    border-color: #4d90fe;
+    box-shadow: 0 0 0 2px #4d90fe;
+}
+  
+input[type="email"]::-webkit-input-placeholder {
+    color: #999;
+}
+  
+input[type="email"]::-moz-placeholder {
+    color: #999;
+}
+  
+input[type="email"]::-ms-input-placeholder {
+    color: #999;
+}
+  
+input[type="email"]::placeholder {
+    color: #999;
+}
+
