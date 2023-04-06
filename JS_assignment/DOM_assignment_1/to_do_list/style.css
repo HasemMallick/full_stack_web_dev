@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    /* display: flex; */
+    justify-content: center;
+    gap: 25px;
+    /* align-items: center; */
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    font-weight: 700;
+    background-color: #3b4050;
+    border: 3px solid red;
+    border-radius: 14px;
+    padding: 24px 54px;
+    height: 10vh;
+    margin-bottom: 25px;
+}
+
+.main {
+    /* height: 100vh; */
+    border: 3px solid green;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+input[type="text"] {
+    /* padding: 10px; */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #3b4050;
+    font-size: 36px;
+    color: #ffffff;
+}
+  
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4d90fe;
+    box-shadow: 0 0 0 2px #4d90fe;
+}
+  
+input[type="text"]::-webkit-input-placeholder {
+    color: #ffffff;
+}
+  
+input[type="text"]::-moz-placeholder {
+    color: #ffffff;
+}
+  
+input[type="text"]::-ms-input-placeholder {
+    color: #ffffff;
+}
+  
+input[type="text"]::placeholder {
+    color: #ffffff;
+}
+
+button {
+    margin: 20px 0;
+    color: #fff;
+    background-color: #3b4050;
+    border: 1px solid red;
+    border-radius: 14px;
+    font-size: 31px;
+    font-weight: 400;
+    /* margin-left: 20px; */
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.list {
+    background-color: #3b4050;
+    border: 2px solid white;
+    border-radius: 24px;
+}
+
+ol {
+    font-size: 34px;
+    font-weight: 500;
+    padding-left: 40px;
+}

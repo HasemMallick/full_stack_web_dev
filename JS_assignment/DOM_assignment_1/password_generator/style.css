@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #d5c9c9;
+    background-color: #000;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    flex-direction: column;
+    height: 50vh;
+    /* background-color: #fff; */
+}
+
+button {
+    background-color: #d5c9c9;
+    color: #000;
+    font-size: 34px;
+    margin-top: 20px;
+    padding: 14px 30px;
+    border: 2px solid #d5c9c9;
+    border-radius: 24px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #d5c9c9;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 28px;
+    border: 2px solid red;
+    border-radius: 14px;
+    width: 20%;
+    font-size: 54px;
+    font-weight: 700;
+    background-color: #d5c9c9;
+    color: #000;
+}
