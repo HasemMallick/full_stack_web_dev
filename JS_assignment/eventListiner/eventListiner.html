@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listiner</title>
+</head>
+<body>
+    <h1>Event Listiner Assignment</h1>
+
+    <div class="onclick">
+        <button style="cursor: pointer;" id="btn" onclick="singleClick()">Click</button>
+    </div>
+
+    <div class="ondblclick" style="margin-top: 30px;">
+        <button style="cursor: pointer;" id="btn-2" ondblclick="dblClick()">Dubble Click</button>
+    </div>
+
+    <div class="image-error">
+        <img src="book.png" alt="book" onerror="imageError()">
+    </div>
+
+    <div class="input">
+        <input type="text" placeholder="Some text" onkeypress="onKeyPress()">
+    </div>
+
+    <script src="eventListiner.js"></script>
+</body>
+</html>
